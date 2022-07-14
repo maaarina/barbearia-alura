@@ -1,0 +1,77 @@
+header{
+    background: #a5a5a5;
+    padding: 20px 0px;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+
+    color: #000000;
+
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover{
+    color: #923e3e;
+    text-decoration: underline;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0px; 
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 50%;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px 0px;
+
+    background-color: #a5a5a5;
+    background: url("../images/bg.jpg")
+}
+
+footer img{
+    height: 180px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+}

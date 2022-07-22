@@ -35,6 +35,8 @@ nav a:hover{
     text-decoration: underline;
 }
 
+/* ========================================== conteudo =============================================== */ 
+
 main {
     width: 940px;
     margin: 0 auto;
@@ -44,7 +46,7 @@ form {
     margin: 40px 0;
 }
 
-form label, form p {
+form label, form legend {
     display:block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -61,9 +63,43 @@ form label, form p {
     margin: 20px 0;
 }
 
+.enviar{
+    width: 40%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
 
+    background: #fd9a76;
+    color: whiter;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; /*tempo de transição*/
+}
 
+.enviar:hover{
+    background: #f1622d;
+    cursor: pointer;
+    transform: scale(1.1);
+}
 
+/*======================================table ===============================*/
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 15px 8px;
+}
+
+/* =================================== footer ============================== */ 
 
 footer{
     text-align: center;

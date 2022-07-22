@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="contato.css">
     <title>Contato - Barbearia Alura</title>
 </head>
+
 <body>
     <header>
         <div class="caixa">
@@ -23,40 +25,47 @@
     </header>
 
     <main>
-        <form action=""> 
-            <label for="nomesobrenome" class=".input-padrao"> Nome e sobrenome</label>
-            <input type="text" id="nomesobrenome">
+        <form action="">
+            <label for="nomesobrenome"> Nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required >
 
             <label for="email">Email</label>
-            <input type="text" id="email" class=".input-padrao">
+            <input type="email" id="email" class="input-padrao" required placeholder="email@dominio.com">
 
             <label for="telefone">Telofone</label>
-            <input type="text" id="telefone" class=".input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
             <label for="mensagem">Mensagem</label>
-            <textarea name="" id="" cols="30" rows="10" id="mensagem" class=".input-padrao"></textarea>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
 
             <div>
                 <p>Como prefere o nosso contato?</p>
-                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                <label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">  Email </label>
                 
-                <label for="radio-telefone"><input type="radio" name="contato" value=" telefone" id="radio-telefone"> Telefone</label>
-                
-                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> Whatsapp</label>
-                
+                <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone </label> 
+
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" > WhatsApp </label> 
+                       
             </div>
 
-            <p>Qual horário prefere ser atendido?</p>
-            <select name="" id="">
-                <option value="">Manhã</option>
-                <option value="">Tarde</option>
-                <option value="">Noite</option>
-            </select>
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </div>
 
-            <label> <input type="checkbox" class="checkbox"> Gostaria de receber nossas novidades por email?</label>
+            <label class="checkbox">
+                <input type="checkbox" checked>
+                Gostaria de receber nossas novidades por email?
+            </label>
 
-            <input type="submit" value="Enviar Formulário">
+            <input type="submit" value="Enviar formulário">
         </form>
+
+        
     </main>
 
     <footer>

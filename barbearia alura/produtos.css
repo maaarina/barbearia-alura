@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap');
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
 header{
     background: #a5a5a5;
     padding: 20px 0px;
@@ -91,7 +97,7 @@ footer{
 }
 
 footer img{
-    height: 180px;
+    height: 280px;
 }
 
 .copyright {
@@ -100,7 +106,7 @@ footer img{
     color: #ffffff;
 }
 
-/*======== pag principal */
+/*========================= pag principal */
 .banner{
     width: 100%
 }
@@ -109,6 +115,7 @@ footer img{
     text-align: center;
     font-size: 2em;
     margin-bottom: 1em;
+    clear: left;
 }
 
 .principal p{
@@ -121,6 +128,12 @@ footer img{
 
 .principal em{
     font-style: italic;
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px;
 }
 
 .imagem-beneficios{

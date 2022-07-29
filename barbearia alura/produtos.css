@@ -87,6 +87,7 @@ nav a:hover{
     font-weight: bold;
     margin-top: 10px;
 }
+/*=======footer===========================================================*/
 
 footer{
     text-align: center;
@@ -106,7 +107,71 @@ footer img{
     color: #ffffff;
 }
 
-/*========================= pag principal */
+/*======formulario============================================================*/
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+
+    background: #fd9a76;
+    color: whiter;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; /*tempo de transição*/
+}
+
+.enviar:hover{
+    background: #f1622d;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+/*==========table========================================================*/
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 15px 8px;
+}
+
+/*==================================================================*/
+
 .banner{
     width: 100%
 }
@@ -139,4 +204,13 @@ footer img{
 .imagem-beneficios{
     width: 60%;
 
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
 }

@@ -178,6 +178,15 @@ td, th{
     clear: left;
 }
 
+.titulo-principal:before{
+    content: "[ ";
+}
+
+.titulo-principal:after{
+    content: " ]";
+}
+
+
 .principal{
     padding: 3em 0;
     background: #fefefe;
@@ -241,6 +250,10 @@ td, th{
 
 .itens:first-child{  /*pseudo classe - marcação para o primeiro iten*/
     font-weight: bold;
+}
+
+.itens:before{
+    content: "🟀 ";
 }
 
 .imagem-beneficios{

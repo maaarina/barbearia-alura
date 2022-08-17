@@ -100,6 +100,21 @@ td, th{
     padding: 15px 8px;
 }
 
+/*======================================= MEDIA ======================================*/
+
+@media screen and (max-width: 480px) {
+    .caixa, main, form, .input-padrao{
+        width: auto;
+    }
+
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+}
+
 
 /*======================================= FOOTER ======================================*/
 

@@ -90,6 +90,29 @@ nav a:hover{
     margin-top: 10px;
 }
 
+/*======================================= MEDIA ======================================*/
+
+@media screen and (max-width: 480px) {
+    .caixa, .produtos, .produtos-descricao, .produtos-valor{
+        width: auto;
+    }
+
+    nav{
+        position: static;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .produtos li{
+        width: 100%;
+    }
+    
+}
+
+
+
 /*======================================= FOOTER ======================================*/
 
 

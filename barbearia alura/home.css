@@ -61,7 +61,6 @@ nav a:hover{
     content: " ]";
 }
 
-
 .principal{
     padding: 3em 0;
     background: #fefefe;
@@ -144,7 +143,6 @@ nav a:hover{
 .imagem-beneficios:hover{
     opacity: 0.4;    
 }
-
 
 .video{
     width: 560px;

@@ -258,10 +258,33 @@ td, th{
 
 .imagem-beneficios{
     width: 60%;
-
+    opacity: 1;
+    transition: 600ms;
+    box-shadow: 2px 2px 5px 5px black;
+}
+.imagem-beneficios:hover{
+    opacity: 0.4;    
 }
 
 .video{
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
 }
